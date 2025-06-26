@@ -1,0 +1,22 @@
+.heading{
+   color: red; 
+   text-align: center;
+   text-decoration: underline;
+}
+#box{
+    background-color: blue;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    color: #050505f8;
+    background-color: rgb(13, 238, 32); 
+}
+
+body{
+    background-color: rgb(213, 240, 247);
+}
+a{
+    text-decoration: none;
+}
