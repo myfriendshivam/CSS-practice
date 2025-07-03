@@ -1,3 +1,6 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .heading{
    color: red; 
    text-align: center;
@@ -19,4 +22,26 @@ body{
 }
 a{
     text-decoration: none;
+}
+
+#one{
+    font-size: 25px;
+}
+#three{
+    font-size: 12px;
+}
+.text-design{
+    line-height: normal;
+    text-transform: uppercase;
+}
+h5{
+    text-align: center;
+    text-transform: capitalize;
+}
+#outer{
+    font-size: 25px;
+}
+
+#inner{
+    font-size: 10px;
 }
