@@ -1,4 +1,9 @@
-div {
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+.hero {
     height: 100px;
     width: 300px;
     background-color: pink;
@@ -11,6 +16,7 @@ div {
     padding: 20px; 
     /* padding: 1px 2px 3px 4px; */
     margin: 20px;
+    /* margin: 1px 2px 3px 4px; */
 }
 
 h1 {
@@ -19,5 +25,25 @@ h1 {
     background-color:aqua;
     border: 3px dashed black;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 50%; /* its shape is circle */
+}
+
+
+
+.container {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+#box1 {
+    background-color: rgba(255,0,0,0.50);
+}
+#box2 {
+    background-color: rgba(255,0,0,0.75);
+}
+#box3 {
+    background-color: rgba(255,0,0,1)
 }
