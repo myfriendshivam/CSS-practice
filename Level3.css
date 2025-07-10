@@ -16,3 +16,49 @@
     width: 5rem; /* rem size * root element(hello) size */
 
 }
+
+.position {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;   
+}
+
+#boxs1 {
+    position: static;
+}
+
+#boxs2 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#boxs3 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+#boxs4 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* width: 100vw; */
+}
+
+#boxs5 {
+    background-image: url("unsplash.jpg");
+    background-size: cover;
+}
+
+#boxs6 {
+    height: 100px;
+    width: 100px;
+    background-image: url("unsplash.jpg");
+    background-size: cover;
+    color: white;
+    position: fixed;
+    right: 0px;
+}
