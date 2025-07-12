@@ -4,6 +4,7 @@
 div {
     height: 100px;
     width: 200px;
+    background-color: chartreuse;
     display: inline-block;
     border: 2px solid black;
 }
@@ -71,4 +72,22 @@ li {
     width: 100px;
     background-color: brown;
     align-self: self-start; /* align self has higher priority than align item */
+}
+
+@media(width: 600px) {
+    div {
+        background-color: coral;
+    }
+}
+
+@media (min-width: 600px) {
+    div {
+        background-color: darkgrey;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 300px){
+    div{
+        background-color: blueviolet;
+    }
 }
